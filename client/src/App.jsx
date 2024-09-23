@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import './index.css';
 import './App.css'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './pages/Home'
@@ -43,9 +44,6 @@ const disptch=useDispatch()
               </Route>
             </Routes>
           </BrowserRouter>
-
-
-
     </>
   )
 }
